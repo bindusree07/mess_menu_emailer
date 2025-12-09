@@ -98,7 +98,6 @@ def send_email(sender, recipients, subject, body, smtp_server, smtp_port, passwo
 
 
 def main():
-    # Get password from env / keyring. If not found, exit with message
     password = get_stored_password()
     if not password:
         print("ERROR: No password found. Set EMAIL_PASSWORD env var or store a keyring credential.")
