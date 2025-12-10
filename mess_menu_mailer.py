@@ -1,7 +1,6 @@
 """automated mess menu emailer.
-Requirements: pandas, openpyxl, keyring
-Optional (for secure stored password): keyring
-Install: pip install pandas openpyxl keyring"""
+Requirements: pandas, openpyxl, 
+Install: pip install pandas openpyxl """
 
 import os
 import sys
